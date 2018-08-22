@@ -4,7 +4,7 @@ var MutableBuffer = require('mutable-buffer'),
 class Escpos {
 
     constructor() {
-      this.buffer = new MutableBuffer;
+      this.buffer = new MutableBuffer.MutableBuffer;
     }
 
     init() {
